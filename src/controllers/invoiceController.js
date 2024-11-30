@@ -1,7 +1,7 @@
 import Business from "../../DB/models/businessModel.js";
 import Client from "../../DB/models/clientModel.js";
 import Invoice from "../../DB/models/invoiceModel.js";
-import InvoiceService from "../services/InvoiceService.js";
+import InvoiceService from "../services/invoiceService.js";
 
 const createInvoiceController = async (req, res) => {
   const {
